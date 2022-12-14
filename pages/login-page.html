@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="/style/login-style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="nav">
+        <a class="navbar" href="/pages/">Home</a>
+        <a class="navbar" href="/pages/login-page.html">Login</a>
+      </div>
+    </header>
+    <section>
+      <div class="background"></div>
+      <div class="container">
+        <div class="login-form">
+          <h1 class="title-form">Entrar no site</h1>
+          <form>
+            <label for="userid"><i class="fa-solid fa-user"></i></label>
+            <input
+              type="text"
+              id="userid"
+              placeholder="Digite seu nome"
+            /><br />
+            <label for="userpassword"><i class="fa-solid fa-lock"></i></label>
+            <input
+              type="password"
+              id="userpassword"
+              placeholder="Digite sua senha"
+            /><br />
+            <div class="btlogin">
+              <input type="submit" value="Login" id="submit-login" />
+            </div>
+            <div class="remember">
+              <input type="checkbox" id="remember"/>
+              <label for="remember" id="test">Lembrar senha?</label><br />
+            </div>
+          </form>
+          <span id="registro">
+            <p>
+              Ainda não possui uma conta?
+              <a href="/pages/register-page.html">Registre-se</a>
+            </p>
+          </span>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <p class="footer">&copy; Developed by Gabriel Roewer</p>
+    </footer>
+    <script
+      src="https://kit.fontawesome.com/cf11c1c5de.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
